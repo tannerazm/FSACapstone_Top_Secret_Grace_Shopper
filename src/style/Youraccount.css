@@ -1,0 +1,30 @@
+.YourAccContainer {
+    position: relative;
+    right: 12.5px;
+    margin-top: 6.80rem;
+    margin-left: 92rem;
+    width: 225px;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    z-index: 1200;
+}
+
+.YourAccContainer a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 12px 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.YourAccContainer a:hover {
+    color: grey;
+}

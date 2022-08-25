@@ -1,0 +1,112 @@
+.AccSettingsContainer {
+    background-color: white;
+    text-align: center;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-top: 200px;
+    margin-left: 20%;
+    width: 60%;
+    height: 35rem;
+    z-index: 650;
+}
+
+.AccSettingsHeader {
+    color: grey;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: lightgray 0.1em 0.1em 0.2em;
+    text-align: center;
+}
+
+.AccSettingsContainerLeft {
+    background-color: lightgray;
+    text-align: center;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-left: 3%;
+    margin-top: 1.5%;
+    width: 30%;
+    height: 30rem;
+    z-index: 650;
+}
+
+.AccSettingsPic {
+    width: 200px;
+    height: 300px;
+}
+
+.AccSettingsContainerRight {
+    position: absolute;
+    background-color: lightgray;
+    text-align: center;
+    font-size: 30px;
+    padding: 2rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-left: 40%;
+    bottom: 1rem;
+    width: 55%;
+    height: 30rem;
+    z-index: 650;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.AccSettingsContainerRight::-webkit-scrollbar {
+    width: 10px;
+}
+
+.AccSettingsContainerRight::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.AccSettingsOptions {
+    padding: 0.5rem;
+}
+
+.AccSettingsChangeBar {
+    height: 2rem;
+    width: 20rem;
+    text-indent: 0.5rem;
+    border-radius: 25px;
+}
+
+.updateUserButton {
+    position: relative;
+    bottom: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color: grey;
+    text-shadow: lightblue 0.1em 0.1em 0.2em;
+}
+
+.AccSettingsOptionsPassword {
+    position: relative;
+    
+    z-index: 1000;
+}
+
+.updatePasswordButton {
+    position: relative;
+    top: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color: grey;
+    text-shadow: lightblue 0.1em 0.1em 0.2em;
+}

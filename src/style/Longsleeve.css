@@ -1,0 +1,82 @@
+.LongSleeveContainer {
+    position: relative;
+    width: 475px;
+    height: 300px;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    z-index: 601;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.LongSleeveContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.LongSleeveContainer::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+.LongSleeveImage {
+    width: 210px;
+    height: 140px;
+}
+
+.LongSleeveInfoContainer {
+    position: relative;
+    left: 15rem;
+    bottom: 9.25rem;
+    font-size: 16px;
+}
+
+.LongSleeveAbout {
+    margin-top: 0.5rem;
+    font-size: 15px;
+    width: 10rem;
+}
+
+.LongSleeveButton {
+    position: relative;
+    right: 0rem;
+    top: 1rem;
+    width: 10rem;
+    height: 3rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color: grey;
+    text-shadow: lightblue 0.1em 0.1em 0.2em;
+}
+
+.LongSleeveButton:hover {
+    opacity: 0.3;
+}
+
+.LongSleeveGrid {
+    position: absolute;
+    margin-left: 23.75%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    max-height: 65%;
+    row-gap: 1rem;
+    padding: 1rem;
+}
+
+.LongSleeveGrid::-webkit-scrollbar {
+    width: 10px;
+}
+
+.LongSleeveGrid::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}

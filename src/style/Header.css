@@ -1,0 +1,128 @@
+.Header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.HeaderTitle {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-decoration: none;
+}
+
+.Container {
+    position: relative;
+}
+
+.ContainerMenu {
+    position: absolute;
+    right: 12.5px;
+    top: calc(100% + .5rem);
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    z-index: 500;
+}
+
+
+
+.ContainerMenu a {
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto 16px;
+    text-align: center;
+    padding: 12px 16px;
+    color: #000;
+    text-decoration: none;
+}
+
+.ContainerMenu a:hover {
+    color: grey;
+}
+
+.MenuIcon {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    text-decoration: none;
+}
+
+.MenuIcon:hover {
+    opacity: 0.5;
+}
+
+.searchDiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 50%;
+    opacity: 0.7;
+}
+
+#WhiteMagnifyingGlass {
+    height: 2rem;
+    width: 2rem;
+    margin-left: 51rem;
+    margin-top: 0.225rem;
+    font-weight: bolder;
+}
+
+#GreyMagnifyingGlass {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-top: -0.3rem;
+    margin-right: -1.4rem;
+}
+
+#xIconSearch {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 10px;
+    margin-bottom: 3px;
+}
+
+#WhiteMagnifyingGlass:hover, #xIconSearch:hover {
+    opacity: 0.75;
+}
+
+#searchBar {
+    height: 1.5rem;
+    width: 75%;
+    margin-left: 10px;
+    margin-top: 3px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.CartCounter {
+    position: relative;
+    background-color: red;
+    font-size: 13px;
+    color: white;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 1px;
+    padding-right: 0.5px;
+    margin-left: 1.3rem;
+    bottom: 2.7rem;
+}

@@ -1,0 +1,44 @@
+.LogoutContainer {
+    position: relative;
+    right: 12.5px;
+    margin-top: 25rem;
+    margin-left: 92rem;
+    width: 225px;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    z-index: 1200;
+    height: 5rem;
+}
+
+.LogoutHeader {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.LogoutButtons {
+    margin-top: 0.1rem;
+    position: relative;
+    width: 5rem;
+    height: 1.5rem;
+    font-size: 20px;
+    font-weight: bolder;
+    color: grey;
+    text-shadow: lightblue 0.1em 0.1em 0.2em;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.LogoutButtons:hover {
+    opacity: 0.7;
+}
+
+.LogoutButtonContainer {
+    display: flex;
+    justify-content: space-around;
+}

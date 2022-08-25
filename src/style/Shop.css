@@ -1,0 +1,57 @@
+.ShopContainer {
+    position: relative;
+    margin-top: 17.5%;
+    margin-left: 42.5%;
+    width: 325px;
+    height: 225px;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.ShopContainer:hover {
+    opacity: 0.5;
+}
+
+.ShopHeader a {
+    position: absolute;
+    margin: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: lightgray 0.1em 0.1em 0.2em;
+    text-decoration: none;
+    transform: translate(-245%, -100%);
+}
+
+.HeaderCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+.Image {
+    width: 300px;
+    height: 200px;
+}
+
+.ShopGrid {
+    position: absolute;
+    margin-left: 25.25%;
+    margin-top: 10%;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+}

@@ -1,0 +1,76 @@
+.adminPage {
+    background-color: white;
+    text-align: center;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-top: 8rem;
+    margin-left: 1.25%;
+    width: 97.5%;
+    height: 47rem;
+    z-index: 650;
+}
+
+.adminUpdateProductContainer {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    text-align: center;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-left: 10rem;
+    margin-top: 1.5rem;
+    width: 90%;
+    height: 43rem;
+    z-index: 650;
+}
+
+.updateShortSleeve, .updateLongSleeve, .updateSweaters, .updateHoodies {
+    background-color: white;
+    opacity: 0.9;
+    width: 100%;
+}
+
+#AdminHomeIcon {
+    position: absolute;
+    left: 1rem;
+    top: 6rem;
+}
+
+#AdminAddIcon {
+    position: absolute;
+    left: 1rem;
+    top: 9rem;
+}
+
+#AdminUpdateProductIcon {
+    position: absolute;
+    left: 1rem;
+    top: 12rem;
+}
+
+#AdminUpdateUsersIcon {
+    position: absolute;
+    left: 1rem;
+    top: 15rem;
+}
+
+#AdminSettingsIcon {
+    position: absolute;
+    left: 1rem;
+    top: 18rem;
+}
+
+
+#AdminHomeIcon:hover, #AdminAddIcon:hover, #AdminUpdateProductIcon:hover, #AdminSettingsIcon:hover, #AdminUpdateUsersIcon:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

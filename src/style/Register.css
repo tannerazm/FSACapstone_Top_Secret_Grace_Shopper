@@ -1,0 +1,81 @@
+.RegisterContainer {
+    position: relative;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-top: 17.5%;
+    margin-left: 43%;
+    width: 300px;
+    height: 555px;
+}
+
+.RegisterForm {
+    position: relative;
+    margin: 5.5%;
+}
+
+.RegisterHeader {
+    color: grey;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: lightgray 0.1em 0.1em 0.2em;
+    text-align: center;
+}
+
+.RegisterInput {
+    height: 50px;
+    font-size: 18px;
+    padding-left: 3px;
+    border-radius: 15px;
+    font-weight: bolder;
+    text-shadow: lightgray 0.1em 0.1em 0.2em;
+    color: grey;
+    border-color: grey;
+}
+
+.RegisterButton {
+    width: 200px;
+    height: 60px;
+    margin-left: 8.5%;
+    font-size: 18px;
+    font-weight: bolder;
+    text-shadow: lightgray 0.1em 0.1em 0.2em;
+    color: grey;
+    border-color: grey;
+}
+
+.RegisterButton:hover {
+    color: black;
+}
+
+.ShowPasswordButton {
+    position: relative;
+    border: none;
+    outline: none;
+    margin-left: 27.5%;
+    margin-top: 5%;
+    background-color: white;
+    opacity: 0.9;
+    color: grey;
+    font-weight: bolder;
+}
+
+.LoginInsteadButton {
+    position: relative;
+    border: none;
+    outline: none;
+    margin-left: 6.5%;
+    margin-top: 5%;
+    background-color: white;
+    opacity: 0.9;
+    color: grey;
+    font-weight: bolder;
+}
+
+.ShowPasswordButton:hover {
+    color: black;
+}

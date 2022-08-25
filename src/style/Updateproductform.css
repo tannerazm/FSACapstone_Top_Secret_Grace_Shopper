@@ -1,0 +1,19 @@
+.UpdateProductButton {
+    margin-left: 10rem;
+}
+
+.Updateselect {
+    height: 2rem;
+    width: 15rem;
+    text-indent: 0.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.Updateinput {
+    height: 2rem;
+    width: 15rem;
+    text-indent: 1rem;
+    border-radius: 25px;
+    cursor: text;
+}

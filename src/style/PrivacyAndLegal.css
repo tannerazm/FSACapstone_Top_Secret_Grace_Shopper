@@ -1,0 +1,33 @@
+.PrivacyAndLegalContainer {
+    background-color: white;
+    text-align: center;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-top: 200px;
+    margin-left: 25%;
+    width: 50%;
+    height: 40rem;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.PrivacyAndLegalContainer::-webkit-scrollbar {
+    width: 10px;
+}
+
+.PrivacyAndLegalContainer::-webkit-scrollbar-thumb {
+    background: grey;
+    border-radius: 10px;
+}
+
+h4, h5, h6 {
+    text-align: left;
+}
+
+h4 {
+    text-decoration: underline;
+}

@@ -1,0 +1,107 @@
+.AdminUpdateContainer {
+  position: absolute;
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    text-align: center;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+    margin-left: 4rem;
+    margin-top: 1.5rem;
+    width: 95%;
+    height: 43rem;
+    z-index: 650;
+    overflow: scroll;
+}
+
+.Image {
+    width: 300px;
+    height: 200px;
+}
+
+.UpdateRoutesGrid {
+    position: absolute;
+    margin-left: 25.25%;
+    margin-top: 2.5%;
+    display: grid;
+    grid-template-columns:  1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+}
+
+.UpdateRoutesContainer {
+    position: relative;
+    margin-top: 17.5%;
+    margin-left: 42.5%;
+    width: 325px;
+    height: 225px;
+    background-color: white;
+    padding: .75rem;
+    border-radius: .25rem;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .3);
+    opacity: 0.9;
+    transform: translateY(-10px);
+    transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+.UpdateRoutesContainer:hover {
+    opacity: 0.5;
+}
+
+.ShopHeader a {
+    position: absolute;
+    margin: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: lightgray 0.1em 0.1em 0.2em;
+    text-decoration: none;
+    transform: translate(-245%, -100%);
+}
+
+.HeaderCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    text-shadow: black 0.1em 0.1em 0.2em;
+  }
+
+  .UpdateMapContainer {
+    background-color: white;
+    padding: 1rem;
+    border: black 1px solid;
+    width: 31rem;
+    text-align: left;
+  }
+
+  #searchYourProductsInput {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+  }
+
+  .UpdateGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    margin-left: 13rem;
+  }
+
+  .SearchContainer {
+    position: absolute;
+  }
+
+  .TextPadding {
+    padding: 2px;
+  }
